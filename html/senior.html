@@ -149,7 +149,7 @@
       <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
           <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><span class="brand-logo">
-                     <img src="../app-assets/images/logo/favicon.png">s="brand-text">AKIPLAW </h2></a></li>
+                     <img src="../app-assets/images/logo/favicon.png">  <h2 class="brand-text">AKIPLAW </h2></a></li></a></li>
           <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
         </ul>
       </div>
@@ -163,14 +163,14 @@
           </li>
             <li class=" nav-item"><a class="d-flex align-items-center" href="clients.html"><i data-feather="user-plus"></i><span class="menu-title text-truncate" data-i18n="Email">Client Registration</span></a>
           </li>
-           <li class=" nav-item"><a class="d-flex align-items-center" href="case.html"><i data-feather="plus-circle"></i><span class="menu-title text-truncate" data-i18n="Email">Case Application</span></a>
+           <li class=" nav-item"><a class="d-flex align-items-center" href="services.html"><i data-feather="plus-circle"></i><span class="menu-title text-truncate" data-i18n="Email">Applications </span></a>
           </li>
           
      
         
           <li class=" navigation-header"><span data-i18n="User Interface">ADVOCATE</span><i data-feather="more-horizontal"></i>
           </li>
-          <li class=" nav-item"><a class="d-flex align-items-center" href="advocate.html"><i data-feather="users"></i><span class="menu-title text-truncate" data-i18n="Typography">Client Requests</span></a>
+          <li class=" nav-item"><a class="d-flex align-items-center" href="advocate.html"><i data-feather="users"></i><span class="menu-title text-truncate" data-i18n="Typography">Applications</span></a>
           </li>
         
    
@@ -182,7 +182,7 @@
        
           <li class=" navigation-header"><span data-i18n="Charts &amp; Maps">SENIOR ADVOCATE</span><i data-feather="more-horizontal"></i>
           </li>
-          <li class=" nav-item"><a class="d-flex align-items-center" href="senior.html"><i data-feather="users"></i><span class="menu-title text-truncate" data-i18n="Charts">Client Requests</span></a>
+          <li class=" nav-item"><a class="d-flex align-items-center" href="senior.html"><i data-feather="users"></i><span class="menu-title text-truncate" data-i18n="Charts">Applications</span></a>
           
           </li>
          
@@ -215,9 +215,9 @@
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a>
                     </li>
-                    <li class="breadcrumb-item"><a href="#">Case Management</a>
+                    <li class="breadcrumb-item"><a href="#">TradeMark Applications</a>
                     </li>
-                    <li class="breadcrumb-item active">View Cases
+                    <li class="breadcrumb-item active">View Applications
                     </li>
                   </ol>
                 </div>
@@ -237,7 +237,7 @@
       <div class="table-title">
         <div class="row">
           <div class="col-sm-6">
-            <h2 style=" color : white !important;"  >Manage <b>Cases</b></h2>
+            <h2 style=" color : white !important;"  >Manage <b>Applications</b></h2>
           </div>
           <div class="col-sm-6">
            
@@ -246,7 +246,7 @@
           </div>
         </div>
       </div>
-      <table class="table table-striped table-hover">
+         <table class="table table-striped table-hover">
         <thead>
           <tr>
             <th>
@@ -255,12 +255,13 @@
                 <label for="selectAll"></label>
               </span>
             </th>
-            <th>Case ID</th>
-            <th>Case Name</th>
+            <th>Application ID</th>
+            <th>Reference</th>
            
-             <th>Client Name</th>
-              <th>Date</th>
-            <th>Assigned To</th>
+             <th>Country</th>
+              <th>Mark Name</th>
+            <th>International Classes</th>
+             <th>Client</th>
                     <th>Status</th>   
             <th>Actions</th>
           </tr>
@@ -273,18 +274,21 @@
                 <label for="checkbox1"></label>
               </span>
             </td>
-            <td>01</td>
-            <td>Copyright Application</td>
-             <td>Thomas Hardy</td>
-            <td>04/10/2021</td>
-            <td>August Mrema</td>
+            <td>19082015</td>
+            <td>JARIR/T15/01</td>
+             <td>Tanzania</td>
+            <td>BMG & Others</td>
+           
+            <td>35</td>
+            <td>Saba IP</td>
            <td>
             
-              <a href="#deleteEmployeeModal" class="delete bg-light-danger" data-toggle="modal">Pending</a>
+              <a href="#deleteEmployeeModal" class="delete bg-light-danger" data-toggle="modal">New</a>
             </td>
             <td>
                  <a href="#editEmployeeModal" style="color: blue;" data-toggle="modal"><i data-feather="paperclip"></i></a>
-             
+              <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i data-feather="send"></i></a>
+            
             </td>
           </tr>
      
